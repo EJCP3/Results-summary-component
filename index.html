@@ -7,34 +7,50 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/estilos.css">
-    <!-- <script src="src/main.js" type="module"></script> -->
     <title>Results summary component</title>
    
-  <body >
+  <body class="font-principal " >
 
-    <main class="bg-teal-500">
-      <section>
-        <article >
-          <h1 >Your Result </h1>
-          <div>
-            <h4>76</h4>
-            <p>of 100 Great</p>
+    <main class="pc:flex pc:justify-center pc:items-center pc:h-screen" >
+      <section class="flex  justify-center flex-col pc:flex-row   bg-white shadow-lg ">
+        <article class="bg-gradient-to-t from-LightRoyalBlue to-LightSlateBlue flex flex-col items-center p-4 rounded-b-3xl" >
+          <h1 class="my-2 text-LightLavender font-bold" >Your Result</h1>
+          <div class="bg-gradient-to-b from-PersianBlue to-persianBlue flex flex-col items-center p-6 px-7 rounded-full gap-1">
+            <h4 class="text-5xl text-White font-bold">76</h4>
+            <p class="text-xs text-LightLavender ">of 100 </p>
           </div>
 
-          <h5>Great</h5>
-          <p>  You scored higher than 65% of the people who have taken these tests.
+          <h5 class="text-white font-medium text-1xl mt-6" >Great</h5>
+          <p class=" text-center text-sm text-LightLavender font-light px-10 mb-3">  You scored higher than 65% of the people who have taken these tests.
           </p>
         </article>
-        <article>
-          <h2>Summary</h2> 
-          <div>
-            <span></span>
-            <h4>Reaction</h4>
-            <p><span>80</span>/ 100</p>
+        <article class="h-auto" >
+
+          <h2 class="p-4 px-9 text-lg font-semibold text-DarkGrayBlue">Summary</h2> 
+          <div class="flex gap-4 justify-between w-4/5  bg-LightRedBG m-auto p-3 rounded-md mb-4">
+            
+            <h4 class="flex gap-2 text-LightRed font-semibold"><img src="public/icon-reaction.svg" alt="">Reaction</h4>
+            <p class="text-DarkGrayBlue font-bold"> 80  <span class="text-gray-400">/ 100</span></p>
           </div>
+          <div class="flex gap-4 justify-between w-4/5  bg-OrangeyYellowBG m-auto p-3 rounded-md mb-4">
+            <h4 class="flex gap-2 text-OrangeyYellow font-semibold"><img src="public/icon-memory.svg" alt="">Memory</h4>
+            <p class="text-DarkGrayBlue font-bold"> 92  <span class="text-gray-400">/ 100</span></p>
+          </div>
+
+          <div class="flex gap-4 justify-between w-4/5  bg-GreenTealBG m-auto p-3 rounded-md mb-4">
+            <h4 class="flex gap-2 text-GreenTeal font-semibold"><img src="public/icon-verbal.svg" alt="">Reaction</h4>
+            <p class="text-DarkGrayBlue font-bold"> 61  <span class="text-gray-400">/ 100</span></p>
+          </div>
+
+          <div class="flex gap-4 justify-between w-4/5  bg-CobaltBlueBG m-auto p-3 rounded-md mb-4">
+            <h4 class="flex gap-2 text-CobaltBlue font-semibold"><img src="public/icon-visual.svg" alt="">Reaction</h4>
+            <p class="text-DarkGrayBlue font-bold"> 72  <span class="text-gray-400">/ 100</span></p>
+          </div>
+          
+           <button class="mx-16 my-5 bg-DarkGrayBlue text-white px-28 py-3 rounded-3xl font-semibold  ">Continue</button>
         </article>
 
-        <a href="">Continue</a>
+       
       </section>
     </main>
     
