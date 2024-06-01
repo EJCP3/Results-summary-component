@@ -9,24 +9,24 @@
     <link rel="stylesheet" href="src/css/estilos.css">
     <title>Results summary component</title>
    
-  <body class="font-principal " >
+  <body class="font-principal bg-white" >
 
     <main class="pc:flex pc:justify-center pc:items-center pc:h-screen" >
-      <section class="flex  justify-center flex-col pc:flex-row   bg-white shadow-lg ">
-        <article class="bg-gradient-to-t from-LightRoyalBlue to-LightSlateBlue flex flex-col items-center p-4 rounded-b-3xl" >
-          <h1 class="my-2 text-LightLavender font-bold" >Your Result</h1>
-          <div class="bg-gradient-to-b from-PersianBlue to-persianBlue flex flex-col items-center p-6 px-7 rounded-full gap-1">
+      <section class="flex  justify-center flex-col pc:flex-row    shadow-lg pc:w-[650px] pc:rounded-3xl ">
+        <article class="bg-gradient-to-t from-LightRoyalBlue to-LightSlateBlue flex flex-col items-center p-4 rounded-b-3xl pc:w-1/2 pc:justify-center pc:gap-6 pc:rounded-3xl " >
+          <h1 class="my-2 text-LightLavender font-bold pc:text-xl" >Your Result</h1>
+          <div class="bg-gradient-to-b from-PersianBlue to-persianBlue flex flex-col items-center p-6 px-7 rounded-full gap-1 pc:p-10 pc:px-12">
             <h4 class="text-5xl text-White font-bold">76</h4>
-            <p class="text-xs text-LightLavender ">of 100 </p>
+            <p class="text-xs text-LightLavender pc:text-gray-400 ">of 100 </p>
           </div>
 
-          <h5 class="text-white font-medium text-1xl mt-6" >Great</h5>
-          <p class=" text-center text-sm text-LightLavender font-light px-10 mb-3">  You scored higher than 65% of the people who have taken these tests.
+          <h5 class="text-white font-medium text-1xl mt-6 pc:text-2xl pc:mt-0" >Great</h5>
+          <p class=" text-center text-sm text-LightLavender font-light px-10 mb-3 pc:text-base pc:font-light pc:mb-5 pc:px-11">  You scored higher than 65% of the people who have taken these tests.
           </p>
         </article>
-        <article class="h-auto" >
+        <article class="h-auto pc:w-1/2" >
 
-          <h2 class="p-4 px-9 text-lg font-semibold text-DarkGrayBlue">Summary</h2> 
+          <h2 class="p-4 px-9 text-lg font-semibold text-DarkGrayBlue pc:font-bold">Summary</h2> 
           <div class="flex gap-4 justify-between w-4/5  bg-LightRedBG m-auto p-3 rounded-md mb-4">
             
             <h4 class="flex gap-2 text-LightRed font-semibold"><img src="public/icon-reaction.svg" alt="">Reaction</h4>
@@ -38,16 +38,16 @@
           </div>
 
           <div class="flex gap-4 justify-between w-4/5  bg-GreenTealBG m-auto p-3 rounded-md mb-4">
-            <h4 class="flex gap-2 text-GreenTeal font-semibold"><img src="public/icon-verbal.svg" alt="">Reaction</h4>
+            <h4 class="flex gap-2 text-GreenTeal font-semibold"><img src="public/icon-verbal.svg" alt="">Verbal</h4>
             <p class="text-DarkGrayBlue font-bold"> 61  <span class="text-gray-400">/ 100</span></p>
           </div>
 
           <div class="flex gap-4 justify-between w-4/5  bg-CobaltBlueBG m-auto p-3 rounded-md mb-4">
-            <h4 class="flex gap-2 text-CobaltBlue font-semibold"><img src="public/icon-visual.svg" alt="">Reaction</h4>
+            <h4 class="flex gap-2 text-CobaltBlue font-semibold"><img src="public/icon-visual.svg" alt="">Visual</h4>
             <p class="text-DarkGrayBlue font-bold"> 72  <span class="text-gray-400">/ 100</span></p>
           </div>
           
-           <button class="mx-16 my-5 bg-DarkGrayBlue text-white px-28 py-3 rounded-3xl font-semibold  ">Continue</button>
+           <button class="mx-16 my-5 bg-DarkGrayBlue text-white px-28 py-3 rounded-3xl font-semibold pc:px-20 pc:mx-10 hover:bg-gradient-to-t from-LightRoyalBlue to-LightSlateBlue ">Continue</button>
         </article>
 
        
