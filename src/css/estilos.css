@@ -673,6 +673,16 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-LightLavender {
+  --tw-bg-opacity: 1;
+  background-color: hsl(241 100% 89% / var(--tw-bg-opacity));
+}
+
+.bg-PaleBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(221 100% 96% / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }

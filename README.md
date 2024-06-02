@@ -14,6 +14,7 @@ Los usuarios deberían poder:
 
 ### Screenshot
 
+![movil](/public/pc.png)
 
 
 ### Links
