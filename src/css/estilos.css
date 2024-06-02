@@ -558,9 +558,9 @@ video {
   margin: auto;
 }
 
-.mx-16 {
-  margin-left: 4rem;
-  margin-right: 4rem;
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .my-2 {
@@ -571,6 +571,16 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .mb-3 {
@@ -589,8 +599,25 @@ video {
   display: flex;
 }
 
+.h-\[692px\] {
+  height: 692px;
+}
+
 .h-auto {
   height: auto;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-min {
+  height: -moz-min-content;
+  height: min-content;
+}
+
+.h-1 {
+  height: 0.25rem;
 }
 
 .w-4\/5 {
@@ -666,21 +693,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-LightLavender {
-  --tw-bg-opacity: 1;
-  background-color: hsl(241 100% 89% / var(--tw-bg-opacity));
-}
-
-.bg-PaleBlue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(221 100% 96% / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -844,26 +856,17 @@ video {
 }
 
 @media (min-width: 600px) {
-  .pc\:mx-1 {
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
-  }
-
   .pc\:mx-10 {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
   }
 
-  .pc\:mt-0 {
-    margin-top: 0px;
-  }
-
-  .pc\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .pc\:mb-5 {
     margin-bottom: 1.25rem;
+  }
+
+  .pc\:mt-0 {
+    margin-top: 0px;
   }
 
   .pc\:flex {
@@ -874,80 +877,16 @@ video {
     height: 100vh;
   }
 
-  .pc\:w-2\/5 {
-    width: 40%;
-  }
-
-  .pc\:w-3\/4 {
-    width: 75%;
-  }
-
-  .pc\:w-6\/12 {
-    width: 50%;
-  }
-
-  .pc\:w-7\/12 {
-    width: 58.333333%;
-  }
-
-  .pc\:w-40 {
-    width: 10rem;
-  }
-
-  .pc\:w-2\/3 {
-    width: 66.666667%;
-  }
-
-  .pc\:w-2\/6 {
-    width: 33.333333%;
-  }
-
-  .pc\:w-3\/6 {
-    width: 50%;
-  }
-
-  .pc\:w-60 {
-    width: 15rem;
-  }
-
-  .pc\:w-96 {
-    width: 24rem;
-  }
-
-  .pc\:w-\[\] {
-    width: ;
-  }
-
-  .pc\:w-\[500px\] {
-    width: 500px;
-  }
-
-  .pc\:w-\[600px\] {
-    width: 600px;
-  }
-
-  .pc\:w-\[700px\] {
-    width: 700px;
-  }
-
-  .pc\:w-\[800px\] {
-    width: 800px;
-  }
-
-  .pc\:w-\[00px\] {
-    width: 00px;
-  }
-
-  .pc\:w-\[650px\] {
-    width: 650px;
-  }
-
-  .pc\:w-3\/5 {
-    width: 60%;
+  .pc\:h-auto {
+    height: auto;
   }
 
   .pc\:w-1\/2 {
     width: 50%;
+  }
+
+  .pc\:w-\[650px\] {
+    width: 650px;
   }
 
   .pc\:flex-row {
@@ -962,52 +901,16 @@ video {
     justify-content: center;
   }
 
-  .pc\:gap-5 {
-    gap: 1.25rem;
-  }
-
   .pc\:gap-6 {
     gap: 1.5rem;
-  }
-
-  .pc\:gap-0 {
-    gap: 0px;
-  }
-
-  .pc\:rounded-sm {
-    border-radius: 0.125rem;
   }
 
   .pc\:rounded-3xl {
     border-radius: 1.5rem;
   }
 
-  .pc\:rounded-s-full {
-    border-start-start-radius: 9999px;
-    border-end-start-radius: 9999px;
-  }
-
-  .pc\:rounded-s-3xl {
-    border-start-start-radius: 1.5rem;
-    border-end-start-radius: 1.5rem;
-  }
-
-  .pc\:p-8 {
-    padding: 2rem;
-  }
-
   .pc\:p-10 {
     padding: 2.5rem;
-  }
-
-  .pc\:px-9 {
-    padding-left: 2.25rem;
-    padding-right: 2.25rem;
-  }
-
-  .pc\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 
   .pc\:px-11 {
@@ -1015,9 +918,9 @@ video {
     padding-right: 2.75rem;
   }
 
-  .pc\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+  .pc\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .pc\:px-20 {
@@ -1030,41 +933,22 @@ video {
     line-height: 2rem;
   }
 
-  .pc\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .pc\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
   }
 
-  .pc\:font-semibold {
-    font-weight: 600;
-  }
-
-  .pc\:font-light {
-    font-weight: 300;
+  .pc\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .pc\:font-bold {
     font-weight: 700;
   }
 
-  .pc\:text-gray-500 {
-    --tw-text-opacity: 1;
-    color: rgb(107 114 128 / var(--tw-text-opacity));
-  }
-
-  .pc\:text-gray-200 {
-    --tw-text-opacity: 1;
-    color: rgb(229 231 235 / var(--tw-text-opacity));
-  }
-
-  .pc\:text-gray-300 {
-    --tw-text-opacity: 1;
-    color: rgb(209 213 219 / var(--tw-text-opacity));
+  .pc\:font-light {
+    font-weight: 300;
   }
 
   .pc\:text-gray-400 {
