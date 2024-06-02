@@ -19,7 +19,7 @@ Los usuarios deberían poder:
 
 ### Links
 
-- URL del sitio activo: 
+- URL del sitio activo: https://ejcp3.github.io/Results-summary-component/
 
 ## Mi proceso
 
